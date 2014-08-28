@@ -1,0 +1,208 @@
+
+
+{
+  "name": "Web Development Competencies",
+    "children": 
+    [
+      {"name": "Back End",
+        "children": 
+        [
+          {"name": "PHP","size":1000},
+          
+          {"name": "NodeJS",
+            "children": 
+            [
+              {"name": "ExpressJS", "size": 3416}
+            ]
+          },
+
+          {"name": "Databases",
+            "children": 
+            [
+              {"name": "Mongo", "size": 7074},
+              {"name": "MySQL", "size": 7074}
+            ]
+          },
+
+          {"name": "AJAX",
+            "children": 
+            [
+              {"name": "API/REST", "size": 7074},
+              {"name": "$http service", "size": 7074},
+              {"name": "JSON", "size": 7074}
+            ]
+          },
+
+          {"name": "Security",
+            "children": 
+            [
+              {"name": "bcryptJS", "size": 7074},
+              {"name": "SSL", "size": 7074}
+            ]
+          },
+
+          {"name": "Authorisation-Authentication",
+            "children": 
+            [
+              {"name": "PassportJS"},
+              {"name": "JWT"}
+            ]
+          },
+
+          {"name": "Hosting",
+            "children": 
+            [
+              {"name": "Platforms",
+                "children": 
+                [
+                  {"name": "AWS EC2"},
+                  {"name": "CostAtCloud"}
+                ]
+              },
+
+              {"name": "Server",
+                "children": 
+                [
+                  {"name": "Ubuntu Linux",
+                    "children": 
+                    [
+                      {"name": "Apache"},
+                      {"name": "Node"}
+                    ]
+                  }
+                ]
+              },
+
+              {"name": "Tools",
+                "children": 
+                [
+                  {"name": "Putty"},
+                  {"name": "Keys"},
+                  {"name": "FTP"},
+                  {"name": "TFTP"},
+                  {"name": "Telnet"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
+ 
+      {"name": "Front End",
+        "children": 
+        [
+          {"name": "JS",
+            "children": 
+            [
+              {"name": "MV Frameworks", 
+                "children": 
+                [
+                  {"name": "Angular", "size":2000}
+                ]
+              },
+              
+              {"name": "Testing", "size":1000}
+            ]
+          },
+
+          {"name": "HTML5", "size": 5842},
+          {"name": "UX", "size": 5842},
+      
+          {"name": "Build Tools",
+            "children": 
+            [
+                {"name": "Bower", "size":1000},
+                {"name": "Grunt", "size":1000},
+                {"name": "Gulp", "size":1000},
+                {"name": "Yeoman", "size":1000},
+                {"name": "Homebrew", "size":1000}
+            ]
+          },
+      
+          {"name": "CSS3",
+            "children": 
+            [
+              {"name": "CSS Tools", 
+                "children": 
+                [
+                  {"name": "SASS/LESS", "size":1000},
+                  {"name": "CSS Frameworks",
+                    "children": 
+                    [
+                      {"name": "Bootstrap3", "size":100}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
+      {"name": "Software Engineering",
+        "children": 
+        [
+          {"name": "Agile",
+            "children": 
+            [
+              {"name": "Sprints", "size": 2220}
+            ]
+          },
+
+          {"name": "Waterfall", "size": 3322}
+        ]
+      },
+
+      {"name": "Mobile",
+        "children": 
+        [
+          {"name": "Ionic",
+            "children": 
+            [
+              {"name": "Angular", "size": 2220},
+              {"name": "HTML5", "size": 2220},
+              {"name": "CSS3", "size": 2220},
+              {"name": "Cordova/PhoneGap", "size": 2220},
+              {"name": "IOS", "size": 2220},
+              {"name": "Android", "size": 2220}
+            ]
+          },
+
+          {"name": "JQ Mobile", "size": 3322}
+        ]
+      },
+
+      {"name": "Tools",
+        "children": 
+        [
+          {"name": "GIT",
+            "children": 
+            [
+              {"name": "Version Control", "size": 2220},
+              {"name": "GitHub", "size": 2220},
+              {"name": "BitBucket", "size": 2220}
+            ]
+          },
+
+          {"name": "IDE/Editors",
+            "children": 
+            [
+              {"name": "Sublime", "size": 2220},
+              {"name": "Notepad++", "size": 2220},
+              {"name": "VIM", "size": 2220},
+              {"name": "Netbeams", "size": 2220}
+            ]
+          }
+        ]
+      },
+
+      {"name": "CMS",
+        "children": 
+        [
+          {"name": "Wordpress"}
+        ]
+      }
+  ]
+}
+
