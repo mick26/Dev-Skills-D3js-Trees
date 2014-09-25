@@ -19,7 +19,7 @@ A radial tree will be displayed.
 
 
 <div align="center">
-		<img width="100%" src="screen-shots/d3-tree.png" alt="D3 Collapsible Tree" title="D3 Collapsible Tree"</img>
+		<img width="100%" src="screen-shots/d3-tree.PNG" alt="D3 Collapsible Tree" title="D3 Collapsible Tree"</img>
 </div>
 
 <div align="center">
