@@ -15,7 +15,8 @@ A radial tree will be displayed.
 * Clone the Repository
 * Click on index.html
 
-## Screen Shot
+
+## Screen Shots
 
 
 <div align="center">
