@@ -1,13 +1,21 @@
 
-
 {
-  "name": "Web Development Competencies",
+  "name": "Development Skills",
     "children": 
     [
       {"name": "Back End",
         "children": 
         [
           {"name": "PHP","size":1000},
+
+          {"name": "Stacks",
+            "children": 
+            [
+              {"name": "MEAN", "size": 3416},
+              {"name": "WAMP", "size": 3416},
+              {"name": "LAMP", "size": 3416}
+            ]
+          },
           
           {"name": "NodeJS",
             "children": 
@@ -20,6 +28,8 @@
             "children": 
             [
               {"name": "Mongo", "size": 7074},
+              {"name": "Redis", "size": 7074},
+              {"name": "PostgreSQL", "size": 7074},
               {"name": "MySQL", "size": 7074}
             ]
           },
@@ -56,7 +66,7 @@
                 "children": 
                 [
                   {"name": "AWS EC2"},
-                  {"name": "CostAtCloud"}
+                  {"name": "CloudAtCost"}
                 ]
               },
 
@@ -92,53 +102,52 @@
       {"name": "Front End",
         "children": 
         [
-          {"name": "JS",
+          {"name": "JS Frameworks",
             "children": 
             [
-              {"name": "MV Frameworks", 
-                "children": 
-                [
-                  {"name": "Angular", "size":2000}
-                ]
-              },
-              
-              {"name": "Testing", "size":1000}
+              {"name": "Angular"}, 
+              {"name": "REACT"}, 
+              {"name": "J Query"}, 
+              {"name": "Bootstrap"} 
             ]
           },
 
           {"name": "HTML5", "size": 5842},
           {"name": "UX", "size": 5842},
-      
-          {"name": "Build Tools",
-            "children": 
-            [
-                {"name": "Bower", "size":1000},
-                {"name": "Grunt", "size":1000},
-                {"name": "Gulp", "size":1000},
-                {"name": "Yeoman", "size":1000},
-                {"name": "Homebrew", "size":1000}
-            ]
-          },
-      
+  
           {"name": "CSS3",
             "children": 
             [
-              {"name": "CSS Tools", 
-                "children": 
-                [
-                  {"name": "SASS/LESS", "size":1000},
-                  {"name": "CSS Frameworks",
-                    "children": 
-                    [
-                      {"name": "Bootstrap3", "size":100}
-                    ]
-                  }
-                ]
-              }
+              {"name": "SASS/LESS", "size":1000},
+              {"name": "Bootstrap3", "size":100},
+              {"name": "Angular Material", "size":100}
             ]
           }
         ]
       },
+
+      {"name": "Testing",
+        "children": 
+        [
+          {"name": "End 2 End",
+            "children": 
+            [
+              {"name": "Protractor", "size": 2220},
+              {"name": "Selenium Webdriver", "size": 2220},
+              {"name": "Jasmine", "size": 2220}
+            ]
+          },
+
+          {"name": "Unit",
+            "children": 
+            [
+              {"name": "Karma", "size": 2220},
+              {"name": "Mocha", "size": 2220}
+            ]
+          }
+        ]
+      },
+
 
       {"name": "Software Engineering",
         "children": 
@@ -151,6 +160,14 @@
           },
 
           {"name": "Waterfall", "size": 3322}
+        ]
+      },
+
+      {"name": "E-Commerce",
+        "children": 
+        [
+          {"name": "Stripe API", "size": 3416},
+          {"name": "Paypal", "size": 3416}              
         ]
       },
 
@@ -185,6 +202,27 @@
             ]
           },
 
+          {"name": "VM",
+            "children": 
+            [
+              {"name": "VirtualBox", "size": 2220},
+              {"name": "Vagrant", "size": 2220}
+            ]
+          },
+
+          {"name": "Build Tools",
+            "children": 
+            [
+                {"name": "NPM", "size":1000},
+                {"name": "Bower", "size":1000},
+                {"name": "Grunt", "size":1000},
+                {"name": "Gulp", "size":1000},
+                {"name": "Yeoman", "size":1000},
+                {"name": "Homebrew", "size":1000},
+                {"name": "PIP", "size":1000}
+            ]
+          },
+
           {"name": "IDE/Editors",
             "children": 
             [
@@ -197,10 +235,38 @@
         ]
       },
 
+      {"name": "IOT",
+        "children": 
+        [
+          {"name": "Node-RED"},
+          {"name": "uC Coding"}
+        ]
+      },
+
       {"name": "CMS",
         "children": 
         [
           {"name": "Wordpress"}
+        ]
+      },
+
+      {"name": "Data Visualisation",
+        "children": 
+        [
+          {"name": "D3"},
+          {"name": "Highcharts.js"},
+          {"name": "RCharts"},
+          {"name": "NVD3.js"},
+          {"name": "Leaflet"}
+        ]
+      },
+
+      {"name": "Big Data",
+        "children": 
+        [
+          {"name": "R"},
+          {"name": "ML"},
+          {"name": "CKAN"}
         ]
       }
   ]
